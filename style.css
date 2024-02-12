@@ -1,0 +1,83 @@
+/* Programmed by Karthik P. */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #6A0DAD;
+}
+
+.section {
+    display: none;
+    margin-top: 20px;
+}
+
+#main-menu button, .back-button, #view-section button, #study-section button {
+    background-color: #6A0DAD;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#main-menu button:hover, .back-button:hover, #view-section button:hover, #study-section button:hover {
+    background-color: #7B1FA2;
+}
+
+#view-section div, #study-section div {
+    border: 2px solid #6A0DAD;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="submit"] {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+}
+
+input[type="submit"] {
+    background-color: #6A0DAD;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #7B1FA2;
+}
+
+.flashcard {
+    cursor: pointer;
+}
+
+#view-section {
+    position: relative; 
+}
+
+#delete-flashcards {
+    background-color: #ff0000; /* Red for caution */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    right: 20px; /* Adjust as needed for your layout */
+    bottom: 20px; /* Adjust as needed */
+}
+
+#delete-all-flashcards:hover {
+    background-color: #e60000; /* A slightly darker red on hover */
+}

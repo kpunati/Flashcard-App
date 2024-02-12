@@ -1,0 +1,48 @@
+<!-- Programmed by Karthik P. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flashcard App</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div id="main-menu" style="text-align: center;">
+        <h1>Main Menu</h1>
+        <button id="create-flashcards">Create Flashcards</button>
+        <button id="view-flashcards">View Flashcards</button>
+        <button id="study-flashcards">Study Flashcards</button>
+    </div>
+
+    <!-- Create Section -->
+    <div id="create-section" class="section">
+        <h2>Create Flashcards</h2>
+        <form id="flashcard-form">
+            <input type="text" id="question" placeholder="Enter question" required>
+            <input type="text" id="answer" placeholder="Enter answer" required>
+            <input type="submit" value="Add Flashcard">
+        </form>
+        <button class="back-button">Back</button>
+    </div>
+
+    <!-- View Section -->
+    <div id="view-section" class="section">
+        <h2>View Flashcards</h2>
+        <!-- Elements to display flashcards -->
+ 	
+ 	<button id="delete-flashcards">Delete All Flashcards</button>
+        <button class="back-button">Back</button>
+     
+    </div>
+
+    <!-- Study Section -->
+    <div id="study-section" class="section">
+        <h2>Study Flashcards</h2>
+        <!-- Elements for studying flashcards -->
+        <button class="back-button">Back</button>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
